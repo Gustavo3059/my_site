@@ -23,6 +23,12 @@ body {
     background-color: #595e61;
 }
 
+.navbar-toggler-icon {
+
+    background-color: aqua !important;
+}
+
+
 #nav_container {
     padding-top: 0;
     padding-bottom: 0;
@@ -35,6 +41,10 @@ body {
 .navbar-brand {
     padding: 0;
     color: #fff;
+}
+
+#acionador span {
+    color: aqua;
 }
 
 .navbar-brand:hover {
@@ -191,23 +201,38 @@ body {
     color: #65DAF9;
 }
 
-/* Seção Parallax */
+/* Seção Obras */
 
-.circle-box div {
-    padding: 0 40px;
-}
-
-.progressbar-text {
-    font-weight: bold;
-    font-size: 32px;
-}
-
-#data-area p {
+.projetos-box {
     text-align: center;
-    color: #fff;
-    font-size: 26px;
-    margin-top: 20px;
+    margin-bottom: 50px;
+
 }
+
+.projetos-box i, .service-box h4 {
+    transition: .5s;
+}
+
+.projetos-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.projetos-box h4 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.projetos-box p {
+    color: #fff;
+}
+
+.projetos-box:hover > i, .projetos-box:hover h4 {
+    color: #65DAF9;
+}
+
 
 /* Seção team */
 
