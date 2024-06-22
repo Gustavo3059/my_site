@@ -1,4 +1,18 @@
-body{margin-top:20px;}
+body {
+    margin-top:20px;
+    
+}
+
+.container {
+    padding-right: 0%;
+    padding-left: 35px;
+    
+}
+
+row {
+    padding-right: 0%;
+    margin-right: 2px;
+}
 
 .card-big-shadow {
     max-width: 320px;
@@ -27,11 +41,11 @@ body{margin-top:20px;}
     color: #FFFFFF;
 }
 .card.card-just-text .content {
-    padding: 50px 65px;
+    padding: 50px 50px;
     text-align: center;
 }
 .card .content {
-    padding: 20px 20px 10px 20px;
+    padding: 20px 20px 10px 0px;
 }
 .card[data-color="blue"] .category {
     color: #7a9e9f;
@@ -70,7 +84,10 @@ h6, .h6 {
     color: #66615b;
 }
 .content-card{
-    margin-top:30px;    
+    margin-top:30px; 
+    padding-right: 0%;  
+    
+    
 }
 a:hover, a:focus {
     text-decoration: none;

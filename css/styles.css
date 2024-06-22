@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    padding: 70px 0;
+    padding: 30px 0;
 }
 
 .p, li {
@@ -56,8 +56,13 @@ body {
 }
 
 .nav-link:hover {
-    color: rgb(132, 14, 201)
+    color: #65DAF9;
     
+}
+
+#home-menu {
+    transform: 1.5%;
+    color: rgb(247, 44, 44);
 }
 
 .navbar-expand-lg, .navbar-nav, .nav-link {
@@ -203,6 +208,10 @@ body {
 
 /* Seção Obras */
 
+.projetos {
+    padding: 30px;
+}
+
 .projetos-box {
     text-align: center;
     margin-bottom: 50px;
@@ -233,6 +242,10 @@ body {
     color: #65DAF9;
 }
 
+.obra {
+    padding: 15px;
+}
+
 
 /* Seção team */
 
@@ -256,9 +269,15 @@ body {
     height: 600px;
 }
 
+
+
 .titulo-localizacao {
     color: #000;
     text-align: center;
+}
+
+.frame-localizacao {
+    align-items: center;
 }
 
 .paragrafo-localizacao {
