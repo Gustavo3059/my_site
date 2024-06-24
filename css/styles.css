@@ -269,8 +269,6 @@ body {
     height: 600px;
 }
 
-
-
 .titulo-localizacao {
     color: #000;
     text-align: center;
@@ -282,4 +280,39 @@ body {
 
 .paragrafo-localizacao {
     color: #000;
+}
+
+/* Footer */
+
+footer{
+    color:#1c8ce1 !important;
+ }
+
+ footer li{
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    color: #fff;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer li:hover {
+    color: #65DAF9;
+}
+  
+ 
+.Careers{ 
+    cursor: pointer;
+    color: #1E88E5;
+}
+
+.row-1{
+    background-color:#1E242A !important;
+}
+
+.row-2{
+    
+    background-color: #28323C !important;
 }
